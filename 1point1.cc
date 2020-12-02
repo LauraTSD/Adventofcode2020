@@ -1,7 +1,7 @@
 #include <iostream>
 
 // cd /mnt/c/Users/laura/Documents/Advent/Addventofcode2020/
- //g++ -o 1point1.exe 1point1.cc
+ //g++ -o 1point1 1point1.cc
 
 int expens [] = {
 1028,
