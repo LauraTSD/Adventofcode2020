@@ -10,12 +10,12 @@ int main() {
     std::ifstream inFile;
     inFile.open("input.txt");
     if (!inFile) {
-    std::cerr << "Unable to open file input.txt";
+      std::cerr << "Unable to open file input.txt";
+    }
     std::string x;
     while (std::getline(inFile, x)) {}
     inFile.close();
 
     exit(1);   // call system to stop
-}
     return 0;
 }
